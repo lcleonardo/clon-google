@@ -1,0 +1,23 @@
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav li {
+  margin-right: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav li ul {
+  margin: 8px;
+  padding: 16px;
+  min-width: 90px;
+  text-align: center;
+}
+
+header nav li ul img {
+  width: 20px;
+}
